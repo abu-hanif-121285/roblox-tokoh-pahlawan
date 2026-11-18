@@ -907,7 +907,7 @@ export const PATHS: Record<PathId, PathData> = {
     tagline: 'Langkah di medan juang',
     description:
       'Masuki hutan perjuangan dan benteng pertahanan. Temui para pejuang yang mempertaruhkan segalanya demi kebebasan bangsa.',
-    image: '/images/path-pejuang.jpg',
+    image: 'images/path-pejuang.jpg',
     accent: '#c85a3f',
     accentSoft: '#f3c9a2',
     featuredHero: 'diponegoro',
@@ -937,7 +937,7 @@ export const PATHS: Record<PathId, PathData> = {
     tagline: 'Kekuatan gagasan',
     description:
       'Jelajahi sekolah rakyat, perpustakaan tua, dan percetakan surat kabar. Perjuangan bisa tumbuh dari pena dan keberanian berpikir.',
-    image: '/images/path-pemikir.jpg',
+    image: 'images/path-pemikir.jpg',
     accent: '#d9ac5c',
     accentSoft: '#f3e0b4',
     featuredHero: 'kihajar',
@@ -966,7 +966,7 @@ export const PATHS: Record<PathId, PathData> = {
     tagline: 'Bersama menjadi kuat',
     description:
       'Hadiri pertemuan, jelajahi kota bersejarah, dan bantu menyatukan pendapat. Persatuan lahir dari keberanian berdialog.',
-    image: '/images/path-pemersatu.jpg',
+    image: 'images/path-pemersatu.jpg',
     accent: '#b98947',
     accentSoft: '#f0d8a8',
     featuredHero: 'soekarno',
