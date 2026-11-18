@@ -25,7 +25,7 @@ export function MenuScreen({ progress, onStart, onContinue, onGallery, onGuide, 
 
   return (
     <div className="noise relative min-h-screen overflow-x-hidden bg-[#071a1a]">
-      <img src="/images/museum-hero.jpg" alt="Museum sejarah dengan kompas tua yang bercahaya" className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-95" />
+      <img src="images/museum-hero.jpg" alt="Museum sejarah dengan kompas tua yang bercahaya" className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-95" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#041414] via-[#041414]/92 to-[#041414]/25" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#041414] via-transparent to-[#041414]/65" />
       <div className="absolute -left-32 top-1/3 h-[420px] w-[420px] rounded-full bg-brass/10 blur-[120px]" />
@@ -126,7 +126,7 @@ export function MenuScreen({ progress, onStart, onContinue, onGallery, onGuide, 
           <div className="absolute -inset-6 rounded-[40px] bg-gradient-to-br from-brass/20 via-transparent to-[#14554e]/30 blur-2xl" />
           <div className="relative overflow-hidden rounded-[30px] border border-brass/35 bg-[#0b2523] shadow-[0_35px_90px_-25px_rgba(0,0,0,.9)]">
             <div className="relative h-[400px] overflow-hidden lg:h-[480px]">
-              <img src="/images/hanif.jpg" alt="HANIF, pemandu petualangan sejarah" className="h-full w-full object-cover object-top" />
+              <img src="images/hanif.jpg" alt="HANIF, pemandu petualangan sejarah" className="h-full w-full object-cover object-top" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2523] via-transparent to-[#041414]/35" />
               <div className="absolute inset-x-0 top-0 flex items-center justify-between p-4">
                 <span className="flex items-center gap-2 rounded-full border border-brass/40 bg-black/35 px-3 py-1.5 text-[9px] font-bold uppercase tracking-[0.18em] text-brass-light backdrop-blur-md">
@@ -209,7 +209,7 @@ export function IntroScreen({ onFinish, onBack }: { onFinish: () => void; onBack
 
   return (
     <div className="noise relative flex min-h-screen flex-col overflow-hidden bg-[#041414]">
-      <img src="/images/museum-hero.jpg" alt="Museum sejarah di malam hari" className="absolute inset-0 h-full w-full object-cover" />
+      <img src="images/museum-hero.jpg" alt="Museum sejarah di malam hari" className="absolute inset-0 h-full w-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#041414] via-[#041414]/62 to-[#041414]/80" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_62%_38%,rgba(217,172,92,.2),transparent_42%)]" />
 
@@ -230,7 +230,7 @@ export function IntroScreen({ onFinish, onBack }: { onFinish: () => void; onBack
             <div className="absolute -inset-8 rounded-full bg-brass/20 blur-3xl" />
             <div className="relative overflow-hidden rounded-[28px] border border-brass/40 bg-[#0a2422] shadow-[0_30px_80px_-20px_rgba(0,0,0,.95)]">
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a2422] via-transparent to-transparent z-10" />
-              <img src="/images/hanif.jpg" alt="HANIF muncul dari kompas tua" className="h-[360px] w-full object-cover object-top sm:h-[440px]" />
+              <img src="images/hanif.jpg" alt="HANIF muncul dari kompas tua" className="h-[360px] w-full object-cover object-top sm:h-[440px]" />
               <div className="absolute inset-x-0 top-0 z-20 flex justify-between p-4">
                 <span className="rounded-full border border-brass/40 bg-black/40 px-3 py-1 text-[8.5px] font-bold uppercase tracking-[0.2em] text-brass-light backdrop-blur">Muncul dari kompas</span>
                 <span className="flex h-7 w-7 items-center justify-center rounded-full border border-brass/40 bg-black/40 text-brass"><Icon name="spark" className="h-3.5 w-3.5" /></span>
