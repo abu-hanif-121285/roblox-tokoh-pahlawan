@@ -229,7 +229,7 @@ export function Modal({ open, onClose, children, className, size = 'md', dismiss
 export function HanifAvatar({ size = 'h-14 w-14', ring = true }: { size?: string; ring?: boolean }) {
   return (
     <div className={cn('relative shrink-0 overflow-hidden rounded-full bg-pine', size, ring && 'ring-2 ring-brass/70 ring-offset-2 ring-offset-[#0d2b29]')}>
-      <img src="/images/hanif.jpg" alt="HANIF, pemandu petualangan" className="h-full w-full object-cover object-[50%_18%]" />
+      <img src="images/hanif.jpg" alt="HANIF, pemandu petualangan" className="h-full w-full object-cover object-[50%_18%]" />
     </div>
   );
 }
