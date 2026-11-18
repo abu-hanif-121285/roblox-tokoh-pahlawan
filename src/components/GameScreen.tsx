@@ -911,7 +911,7 @@ export function GameScreen({ progress, path, settings, events }: { progress: Pro
       <Modal open={modal === 'final'} onClose={() => setModal(null)} size="md" dismissable={false}>
         <div className="relative">
           <div className="relative h-32 overflow-hidden">
-            <img src="/images/ending-sunrise.jpg" alt="" className="h-full w-full object-cover" />
+            <img src="images/ending-sunrise.jpg" alt="" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a2422] via-[#0a2422]/30 to-transparent" />
             <div className="absolute bottom-3 left-5"><p className="text-[8.5px] font-bold uppercase tracking-[0.2em] text-brass-light">Ending · {path.title}</p><p className="display text-2xl font-semibold text-parchment">{path.ending.title}</p></div>
           </div>
