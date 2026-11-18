@@ -22,7 +22,7 @@ export function EndingScreen({ progress, onReplay, onChoosePath, onMenu, onGalle
   return (
     <div className="noise relative min-h-screen overflow-x-hidden bg-[#051615]">
       <div className="relative h-[42vh] min-h-[280px] w-full overflow-hidden sm:h-[48vh]">
-        <img src="/images/ending-sunrise.jpg" alt="Matahari terbit di atas bukit Nusantara" className="h-full w-full object-cover" />
+        <img src="images/ending-sunrise.jpg" alt="Matahari terbit di atas bukit Nusantara" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#051615] via-[#051615]/45 to-[#041414]/55" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(255,224,158,.28),transparent_50%)]" />
         <header className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-5 py-4 sm:px-8 lg:px-10">
